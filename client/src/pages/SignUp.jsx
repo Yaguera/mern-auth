@@ -47,7 +47,7 @@ export default function SignUp() {
         <input type="password" placeholder='Password' id='password' className='bg-slate-100 rounded-lg p-3' onChange={handleChange} />
         <button disabled={loading} className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'Loading...': 'Sign Up'}</button>
       </form>
-      <div className='flex gap-3'>
+      <div className='flex mt-3 gap-3'>
         <p>Have an account?</p>
         <Link to='/sign-in'>
           <span className='text-blue-500'>Sign in</span>
